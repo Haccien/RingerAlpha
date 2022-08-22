@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		689E259528B4343100B3328D /* RingerAlphaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689E259428B4343100B3328D /* RingerAlphaApp.swift */; };
+		689E259728B4343100B3328D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689E259628B4343100B3328D /* ContentView.swift */; };
+		689E259928B4343300B3328D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 689E259828B4343300B3328D /* Assets.xcassets */; };
+		689E259C28B4343300B3328D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 689E259B28B4343300B3328D /* Preview Assets.xcassets */; };
+		689E25A628B4343400B3328D /* RingerAlphaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689E25A528B4343400B3328D /* RingerAlphaTests.swift */; };
+		689E25B028B4343400B3328D /* RingerAlphaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689E25AF28B4343400B3328D /* RingerAlphaUITests.swift */; };
+		689E25B228B4343400B3328D /* RingerAlphaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689E25B128B4343400B3328D /* RingerAlphaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		689E25A228B4343400B3328D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689E258928B4343100B3328D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 689E259028B4343100B3328D;
+			remoteInfo = RingerAlpha;
+		};
+		689E25AC28B4343400B3328D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689E258928B4343100B3328D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 689E259028B4343100B3328D;
+			remoteInfo = RingerAlpha;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		689E259128B4343100B3328D /* RingerAlpha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RingerAlpha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		689E259428B4343100B3328D /* RingerAlphaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingerAlphaApp.swift; sourceTree = "<group>"; };
+		689E259628B4343100B3328D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		689E259828B4343300B3328D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		689E259B28B4343300B3328D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		689E25A128B4343400B3328D /* RingerAlphaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RingerAlphaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		689E25A528B4343400B3328D /* RingerAlphaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingerAlphaTests.swift; sourceTree = "<group>"; };
+		689E25AB28B4343400B3328D /* RingerAlphaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RingerAlphaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		689E25AF28B4343400B3328D /* RingerAlphaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingerAlphaUITests.swift; sourceTree = "<group>"; };
+		689E25B128B4343400B3328D /* RingerAlphaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingerAlphaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		689E258E28B4343100B3328D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689E259E28B4343400B3328D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689E25A828B4343400B3328D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		689E258828B4343100B3328D = {
+			isa = PBXGroup;
+			children = (
+				689E259328B4343100B3328D /* RingerAlpha */,
+				689E25A428B4343400B3328D /* RingerAlphaTests */,
+				689E25AE28B4343400B3328D /* RingerAlphaUITests */,
+				689E259228B4343100B3328D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		689E259228B4343100B3328D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				689E259128B4343100B3328D /* RingerAlpha.app */,
+				689E25A128B4343400B3328D /* RingerAlphaTests.xctest */,
+				689E25AB28B4343400B3328D /* RingerAlphaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		689E259328B4343100B3328D /* RingerAlpha */ = {
+			isa = PBXGroup;
+			children = (
+				689E259428B4343100B3328D /* RingerAlphaApp.swift */,
+				689E259628B4343100B3328D /* ContentView.swift */,
+				689E259828B4343300B3328D /* Assets.xcassets */,
+				689E259A28B4343300B3328D /* Preview Content */,
+			);
+			path = RingerAlpha;
+			sourceTree = "<group>";
+		};
+		689E259A28B4343300B3328D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				689E259B28B4343300B3328D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		689E25A428B4343400B3328D /* RingerAlphaTests */ = {
+			isa = PBXGroup;
+			children = (
+				689E25A528B4343400B3328D /* RingerAlphaTests.swift */,
+			);
+			path = RingerAlphaTests;
+			sourceTree = "<group>";
+		};
+		689E25AE28B4343400B3328D /* RingerAlphaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				689E25AF28B4343400B3328D /* RingerAlphaUITests.swift */,
+				689E25B128B4343400B3328D /* RingerAlphaUITestsLaunchTests.swift */,
+			);
+			path = RingerAlphaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		689E259028B4343100B3328D /* RingerAlpha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 689E25B528B4343400B3328D /* Build configuration list for PBXNativeTarget "RingerAlpha" */;
+			buildPhases = (
+				689E258D28B4343100B3328D /* Sources */,
+				689E258E28B4343100B3328D /* Frameworks */,
+				689E258F28B4343100B3328D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RingerAlpha;
+			productName = RingerAlpha;
+			productReference = 689E259128B4343100B3328D /* RingerAlpha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		689E25A028B4343400B3328D /* RingerAlphaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 689E25B828B4343400B3328D /* Build configuration list for PBXNativeTarget "RingerAlphaTests" */;
+			buildPhases = (
+				689E259D28B4343400B3328D /* Sources */,
+				689E259E28B4343400B3328D /* Frameworks */,
+				689E259F28B4343400B3328D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				689E25A328B4343400B3328D /* PBXTargetDependency */,
+			);
+			name = RingerAlphaTests;
+			productName = RingerAlphaTests;
+			productReference = 689E25A128B4343400B3328D /* RingerAlphaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		689E25AA28B4343400B3328D /* RingerAlphaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 689E25BB28B4343400B3328D /* Build configuration list for PBXNativeTarget "RingerAlphaUITests" */;
+			buildPhases = (
+				689E25A728B4343400B3328D /* Sources */,
+				689E25A828B4343400B3328D /* Frameworks */,
+				689E25A928B4343400B3328D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				689E25AD28B4343400B3328D /* PBXTargetDependency */,
+			);
+			name = RingerAlphaUITests;
+			productName = RingerAlphaUITests;
+			productReference = 689E25AB28B4343400B3328D /* RingerAlphaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		689E258928B4343100B3328D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					689E259028B4343100B3328D = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					689E25A028B4343400B3328D = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 689E259028B4343100B3328D;
+					};
+					689E25AA28B4343400B3328D = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 689E259028B4343100B3328D;
+					};
+				};
+			};
+			buildConfigurationList = 689E258C28B4343100B3328D /* Build configuration list for PBXProject "RingerAlpha" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 689E258828B4343100B3328D;
+			productRefGroup = 689E259228B4343100B3328D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				689E259028B4343100B3328D /* RingerAlpha */,
+				689E25A028B4343400B3328D /* RingerAlphaTests */,
+				689E25AA28B4343400B3328D /* RingerAlphaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		689E258F28B4343100B3328D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689E259C28B4343300B3328D /* Preview Assets.xcassets in Resources */,
+				689E259928B4343300B3328D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689E259F28B4343400B3328D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689E25A928B4343400B3328D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		689E258D28B4343100B3328D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689E259728B4343100B3328D /* ContentView.swift in Sources */,
+				689E259528B4343100B3328D /* RingerAlphaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689E259D28B4343400B3328D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689E25A628B4343400B3328D /* RingerAlphaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689E25A728B4343400B3328D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689E25B228B4343400B3328D /* RingerAlphaUITestsLaunchTests.swift in Sources */,
+				689E25B028B4343400B3328D /* RingerAlphaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		689E25A328B4343400B3328D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 689E259028B4343100B3328D /* RingerAlpha */;
+			targetProxy = 689E25A228B4343400B3328D /* PBXContainerItemProxy */;
+		};
+		689E25AD28B4343400B3328D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 689E259028B4343100B3328D /* RingerAlpha */;
+			targetProxy = 689E25AC28B4343400B3328D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		689E25B328B4343400B3328D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		689E25B428B4343400B3328D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		689E25B628B4343400B3328D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RingerAlpha/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EthanCodes.RingerAlpha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		689E25B728B4343400B3328D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RingerAlpha/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EthanCodes.RingerAlpha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		689E25B928B4343400B3328D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EthanCodes.RingerAlphaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RingerAlpha.app/RingerAlpha";
+			};
+			name = Debug;
+		};
+		689E25BA28B4343400B3328D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EthanCodes.RingerAlphaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RingerAlpha.app/RingerAlpha";
+			};
+			name = Release;
+		};
+		689E25BC28B4343400B3328D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EthanCodes.RingerAlphaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RingerAlpha;
+			};
+			name = Debug;
+		};
+		689E25BD28B4343400B3328D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EthanCodes.RingerAlphaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RingerAlpha;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		689E258C28B4343100B3328D /* Build configuration list for PBXProject "RingerAlpha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689E25B328B4343400B3328D /* Debug */,
+				689E25B428B4343400B3328D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		689E25B528B4343400B3328D /* Build configuration list for PBXNativeTarget "RingerAlpha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689E25B628B4343400B3328D /* Debug */,
+				689E25B728B4343400B3328D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		689E25B828B4343400B3328D /* Build configuration list for PBXNativeTarget "RingerAlphaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689E25B928B4343400B3328D /* Debug */,
+				689E25BA28B4343400B3328D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		689E25BB28B4343400B3328D /* Build configuration list for PBXNativeTarget "RingerAlphaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689E25BC28B4343400B3328D /* Debug */,
+				689E25BD28B4343400B3328D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 689E258928B4343100B3328D /* Project object */;
+}
